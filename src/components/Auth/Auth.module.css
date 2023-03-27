@@ -1,0 +1,76 @@
+.auth{
+    width: 30rem;
+    max-width: 90%;
+    margin: 7rem auto;
+    padding: 10px;
+    box-shadow: 1px 2px 8px rgb(211, 206, 206);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.btns{
+    text-align: center;
+}
+
+.btns button{
+    color:white;
+    border:none;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+.red{
+    background-color: red;
+}
+
+.btns .green{
+    background-color: green;
+    margin: 20px 0;
+}
+
+.red:hover{
+    background-color: rgb(224, 53, 53);
+}
+
+.btns .green:hover{
+    background-color: rgb(31, 206, 31);
+}
+.inp{
+    width: 70%;
+    font-size: 1rem;
+    padding:5px 10px;
+    border:1px solid rgba(174, 169, 169, 0.368);
+    margin: 10px 0;
+}
+
+.inp::placeholder{
+    color: gray;
+    font-weight: bold;
+}
+.inp:focus{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.331);
+    outline: none;
+}
+.err{
+    background-color: red;
+}
+
+.err:focus{
+    border:1px solid red
+}
+
+button{
+    cursor: pointer;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

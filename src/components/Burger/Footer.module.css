@@ -1,0 +1,96 @@
+.footer{
+    background-color: rgb(211, 152, 15);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredient{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 0;
+    color: rgb(165, 106, 42);
+    font-size: 20px;
+    width: 20%;
+    background-color: rgb(216, 197, 23);
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+background-color: rgb(89, 143, 14);
+}
+.btn:disabled{
+    padding: 10px 0;
+    color: rgb(211, 201, 201);
+    font-size: 20px;
+    width: 20%;
+    background-color: rgb(175, 171, 171);
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.main{
+    width: 15rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+label{
+    font-size: 30px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.btns button:first-child{
+    color: white;
+    padding: 5px 22px;
+    background-color: rgb(121, 57, 4);
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btns button:first-child:disabled{
+    color: rgb(212, 196, 196);
+    padding: 5px 22px;
+    background-color: gray;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 17px;
+    cursor:not-allowed
+}
+
+.btns button:last-child{
+    color: white;
+    padding: 5px 22px;
+    font-weight: bold;
+    background-color: rgb(212, 136, 14);
+    border: 1px solid black;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+
+.btns button:last-child:hover{
+    cursor: pointer;
+    background-color: rgb(197, 148, 68);
+}

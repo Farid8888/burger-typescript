@@ -1,0 +1,136 @@
+.burger{
+    width: 30rem;
+    height: 25rem;
+    max-width: 90%;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.top{
+    background: linear-gradient(#bc581e, #e27b36);
+    border-radius: 50% 50% 0 0;
+    width: 80%;
+    height: 20%;
+    box-shadow: inset -15px 0px rgb(167, 90, 3);
+    margin: auto;
+    position: relative;
+}
+
+.fst{
+    position: absolute;
+    left: 10%;
+    top:29%;
+    border-radius: 40%;
+    height: 45%;
+    width: 3%;
+    background-color: white;
+    box-shadow: inset -2px 0 rgba(0, 0, 0, 0.201);
+    transform:rotate(-60deg)
+}
+
+.secst{
+    position: absolute;
+    left: 27%;
+    top:29%;
+    border-radius: 40%;
+    height: 45%;
+    width: 3%;
+    background-color: white;
+    box-shadow: inset -2px 0 rgba(0, 0, 0, 0.201);
+    transform:rotate(75deg)
+}
+
+
+.thrt{
+    position: absolute;
+    left: 48%;
+    top:10%;
+    border-radius: 40%;
+    height: 45%;
+    width: 3%;
+    background-color: white;
+    box-shadow: inset -2px 0 rgba(0, 0, 0, 0.201);
+    transform:rotate(-55deg)
+}
+
+
+.fort{
+    position: absolute;
+    left: 63%;
+    top:39%;
+    border-radius: 40%;
+    height: 45%;
+    width: 3%;
+    background-color: white;
+    box-shadow: inset -2px 0 rgba(0, 0, 0, 0.201);
+    transform:rotate(80deg)
+}
+
+
+
+.ft{
+    position: absolute;
+    left: 80%;
+    top:34%;
+    border-radius: 40%;
+    height: 45%;
+    width: 3%;
+    background-color: white;
+    box-shadow: inset -2px 0 rgba(0, 0, 0, 0.201);
+    transform:rotate(25deg)
+}
+
+.noIng{
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.bottom{
+    height: 12%;
+    width: 80%;
+    background: linear-gradient(#bc581e, #e27b36);
+    box-shadow: inset -15px 0px rgb(167, 90, 3);
+    margin: auto;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.Salad{
+    background: linear-gradient(rgb(98, 227, 98),rgb(2, 69, 2));
+    width: 88%;
+    height: 30px;
+    margin: 4px 0;
+    border-radius: 2rem;
+}
+
+.Bacon{
+    background-color: brown;
+    width: 83%;
+    height: 12px;
+    margin: 4px 0;
+}
+
+.Cheese{
+    background:linear-gradient(#f4d004, #d6bb22);;
+    width: 120%;
+    height: 15px;
+    border-radius: 2rem;
+    margin: 4px 0;
+}
+
+.Meat{
+    background: linear-gradient(rgb(92, 45, 7),rgb(163, 110, 24));
+    width: 89%;
+    height: 40px;
+    border-radius: 2rem;
+    margin: 4px 0;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+

@@ -1,0 +1,45 @@
+.overlay{
+   position: fixed;
+   top:7rem;
+   left:25%;
+    width: 40%;
+    height: 70%;
+    background-color: white;
+    transition: all 0.3s ease-out;
+    z-index: 100;
+}
+
+.overlay.open{
+   opacity: 1;
+   transform: translateY(0);
+}
+
+.overlay.diss{
+    opacity: 0;
+     transform: translateY(-50rem);
+     
+}
+
+
+@keyframes overlay-appear{
+    from{
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes overlay-diss{
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+}
+
