@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useEffect} from 'react'
 import classes from './BurgerImage.module.css'
 import {useAppSelector} from '../../store/store'
 
@@ -6,11 +6,12 @@ import {useAppSelector} from '../../store/store'
 
 const BurgerImage=()=> {
   const burger = useAppSelector(state=>state.burger.burgerState)
-  const [b,setB] = useState(false)
+
   useEffect(()=>{
 
   },[])
   let content
+ 
    content = burger.map(b=>{ 
   return Array.from(new Array(b.count),(_,i)=>i).map(item=>{
     return (
